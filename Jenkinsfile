@@ -1,4 +1,4 @@
-def project = 'REPLACE_WITH_YOUR_PROJECT_ID'
+def project = 'qwiklabs-gcp-d60ecb5f9e472c98'
 def  appName = 'gceme'
 def  feSvcName = "${appName}-frontend"
 def  imageTag = "gcr.io/${project}/${appName}:${env.BRANCH_NAME}.${env.BUILD_NUMBER}"
